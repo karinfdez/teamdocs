@@ -1,11 +1,12 @@
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
-    <>
-     <h1 className="text-3xl font-bold underline text-red-500">Hello Tailwind!</h1>
-    </>
+    <div className="min-h-screen bg-white text-gray-900 flex flex-col items-center">
+      <Home />
+    </div>
   )
 }
 

@@ -44,7 +44,7 @@ function UploadArea() {
                 </p>
             </div>
 
-            {files.length > 0 && (
+            {/* {files.length > 0 && (
                 <div className="grid grid-cols-3 gap-4">
                     {files.map((file) => (
                         <div
@@ -66,7 +66,7 @@ function UploadArea() {
                         </div>
                     ))}
                 </div>
-            )}
+            )} */}
         </div>
     );
 }
